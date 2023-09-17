@@ -1,0 +1,145 @@
+.menu_navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -42px;
+    
+}
+.img_logo {
+    flex: 0; /* Evita que a imagem cresça e ocupe espaço extra */
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: center;
+    text-align: center; /* Centralize o texto dentro da lista */
+    cursor: pointer;
+    
+}
+.menu-list li {
+    display: inline-block; /* Transforme os itens da lista em elementos em linha */
+    margin-right: 20px;
+}
+.menu-usuario li {
+    cursor: pointer;
+    color: black; /* Define a cor do texto como branco */
+    display: inline-block; /* Transforme os itens da lista em elementos em linha */
+    margin-right: 20px;
+    
+}
+.menu-usuario li h4 {
+    border-radius: 5px; /* Adiciona cantos arredondados ao retângulo */
+    color: rgb(255, 255, 255);
+    background-color:  rgb(156, 43, 43);
+    padding: 10px 20px; /* Aumente o espaço ao redor do texto (topo/baixo, esquerda/direita) */
+    margin-right: 25px;
+}
+.sobre {
+    color:rgb(136, 19, 19);
+    margin-left: 850px;
+    cursor: pointer;
+}
+.diferencial {
+    margin-left: 700px;
+}
+.resposta {
+    color:rgb(116, 109, 109);
+    margin-left: 600px;
+}
+.diff .list li {
+    display: inline-block; /* Transforme os itens da lista em elementos em linha */
+    color:rgb(136, 19, 19);
+    padding: 0 0 10px 20px;
+    margin-left: 270px;
+    margin-bottom: -300px;
+}
+
+.list-detail li {
+    display: inline-block; /* Transforme os itens da lista em elementos em linha */
+    padding: 0 -30px 0 0px; /* Adiciona espaço à direita do texto */   
+    margin-left: 200px;
+    margin-top:0px;
+    color:rgb(100, 95, 95);
+}
+.list-detail li h1 {
+    color:rgb(147, 28, 28);
+    margin-bottom: -5px;
+}
+.list-detail li h3 {
+    color: black;
+    margin-top: -20px;
+    margin-bottom: -39px;
+}
+
+.list-detail li h4 {
+    margin-top:25px;
+    color: rgb(84, 74, 74);
+}
+.vagas {
+    margin-top: 100px;
+    margin-left:800px;
+    border-radius: 10px; /* Adiciona cantos arredondados ao retângulo */
+    color: rgb(0, 0, 0);
+    background-color:  rgb(232, 228, 228);
+    padding: 10px 20px; /* Aumente o espaço ao redor do texto (topo/baixo, esquerda/direita) */
+    margin-right: 950px;
+}
+.talentos {
+    margin-left: 650px;
+}
+.talentos2 {
+    margin-left: 620px;
+    color: rgb(101, 98, 98);
+}
+.reuniao {
+    margin-left: 230px;
+}
+.design {
+    margin-left: 600px;
+}
+.info {
+    margin-top: 30px;
+    margin-left: 600px;
+    padding: 10px 20px; /* Aumente o espaço ao redor do texto (topo/baixo, esquerda/direita) */
+    border-radius: 10px; /* Adiciona cantos arredondados ao retângulo */
+    background-color:  rgb(247, 244, 244);
+    margin-right:700px;
+}
+.veja {
+    margin-top: 50px;
+    padding: 10px 20px; /* Aumente o espaço ao redor do texto (topo/baixo, esquerda/direita) */
+    border-radius: 10px; /* Adiciona cantos arredondados ao retângulo */
+    background-color:  rgb(247, 244, 244);
+    margin-right:400px;
+    margin-left: 400px; 
+    text-align: center;
+    color:rgb(147, 28, 28);
+}
+.veja h4{
+    cursor: pointer;
+}
+.veja h1{
+    color:rgb(0, 0, 0);
+}
+.veja h3{
+    color:rgb(0, 0, 0);
+}
+.job h3{
+    margin-top: -30px;
+    text-align: center;
+    color:rgb(100, 95, 95);
+}
+.fim {
+    margin-top: 50px;
+    padding: 10px 20px; /* Aumente o espaço ao redor do texto (topo/baixo, esquerda/direita) */
+    border-radius: 10px; /* Adiciona cantos arredondados ao retângulo */
+    background-color:  rgb(247, 244, 244);
+    margin-right:400px;
+    margin-left: 400px; 
+    text-align: center;
+    color:rgb(147, 28, 28);
+}
+.fim h3 {
+    color: black;
+}
